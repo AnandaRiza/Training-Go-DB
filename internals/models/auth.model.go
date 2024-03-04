@@ -1,5 +1,6 @@
 package models
 
+//authentication model
 type AuthModel struct {
 	Id       int    `db:"id"`
 	Email    string `db:"email" json:"email" form:"email"`
